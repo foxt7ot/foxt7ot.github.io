@@ -5,12 +5,12 @@
     <description>A blog maybe or may be some weird sh!t who knows? :-D</description>
     <link>foxt7ot.github.io/</link>
     <atom:link href="foxt7ot.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Apr 2016 09:39:44 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2016 09:39:44 +0000</lastBuildDate>
+    <pubDate>Sun, 24 Apr 2016 14:39:02 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Apr 2016 14:39:02 +0000</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
-        <title>My first post with Jekyll!</title>
+        <title>My first post using Jekyll!</title>
         <description>&lt;p&gt;And on this nice and shiny day of summer I took decision to move ahead of old blog powered by wordpress to this new one powered by &lt;a href=&quot;https://github.com/gh-pages&quot;&gt;github&lt;/a&gt; pages with an essence of &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
 
 </description>
