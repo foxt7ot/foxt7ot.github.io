@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Yaseen</title>
-    <description>A blog maybe or may be some weird sh!t who knows? :-D</description>
-    <link>foxt7ot.github.io/</link>
-    <atom:link href="foxt7ot.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jun 2016 09:41:37 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Jun 2016 09:41:37 +0000</lastBuildDate>
-    <generator>Jekyll v3.0.2</generator>
-    
-      <item>
-        <title>Fasting Benefits</title>
-        <description>&lt;p&gt;Some interesting information about what happens to our Body during fasting!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Tag: spiritual</title>
+ <link href="foxt7ot.github.io/tag/spiritual.xml" rel="self"/>
+ <link href="foxt7ot.github.io/tag/spiritual.html"/>
+ <updated>2016-06-23T09:41:37+00:00</updated>
+ <id>foxt7ot.github.io/tag/spiritual.html</id>
+ <author>
+   <name>Yaseen</name>
+ </author>
+ 
+ <entry>
+   <title>Fasting Benefits</title>
+   <link href="foxt7ot.github.io/fasting-benefits.html"/>
+   <updated>2016-06-02T08:37:36+00:00</updated>
+   <id>foxt7ot.github.io/fasting-benefits.html</id>
+   <content type="html">&lt;p&gt;Some interesting information about what happens to our Body during fasting!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Detoxification Stage 1 (Day 1 To Day 2)&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
 On the first day of fasting, the blood sugar level drops. The heart slows and blood pressure is reduced. Glycogen is pulled from the muscle causing some weakness. The first wave of cleansing is usually the worst. Headaches, dizziness, nausea, bad breath, and a heavily coated tongue are signs of the first stage of cleansing. Hunger can be the most intense in this period.&lt;/p&gt;
@@ -26,27 +29,15 @@ You will experience enhanced energy, clear-mindedness and feel better. On the do
 The body is completely adapted to the fasting process. There is more energy and clarity of mind. Cleansing periods can be short with many days of feeling good in between. There are days when the tongue is pink and the breath is fresh. The healing work of the organs is being completed. After the detoxification mechanisms have removed the causative agent or render it harmless, the body works at maximum capacity in tissue proliferation to replace damaged tissue. After day 20, the mind is affected. Heightened clarity and emotional balance are felt at this time. Memory and concentration improve.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;~Happy Fasting&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jun 2016 08:37:36 +0000</pubDate>
-        <link>foxt7ot.github.io/fasting-benefits.html</link>
-        <guid isPermaLink="true">foxt7ot.github.io/fasting-benefits.html</guid>
-        
-        <category>spiritual</category>
-        
-        <category>religious</category>
-        
-        <category>science</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome Ramadhan</title>
-        <description>&lt;p&gt;In the current and next few weeks, you may come into work and find your co-worker taking a power nap at 9:30am. At break time, you’ll notice he\she is missing in the discussion about Harry Potter over at the water cooler. At the staff meeting, you will be shocked when he\she is offered coffee and cookies and refuses ! By lunch time, your concern about his\her missing at the water cooler compels you to investigate the situation.&lt;br /&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome Ramadhan</title>
+   <link href="foxt7ot.github.io/welcome-ramadhan.html"/>
+   <updated>2016-06-02T08:37:36+00:00</updated>
+   <id>foxt7ot.github.io/welcome-ramadhan.html</id>
+   <content type="html">&lt;p&gt;In the current and next few weeks, you may come into work and find your co-worker taking a power nap at 9:30am. At break time, you’ll notice he\she is missing in the discussion about Harry Potter over at the water cooler. At the staff meeting, you will be shocked when he\she is offered coffee and cookies and refuses ! By lunch time, your concern about his\her missing at the water cooler compels you to investigate the situation.&lt;br /&gt;
 Then you remember what he\she had mentioned last week over a delicious lunch. Flooded with relief, you go up to his\her desk, and proclaim with much gusto, “Ramadan Mubarak (Moo-baa-rak)!” Ramadan’s Blessings to you!&lt;br /&gt;
 The month of Ramadan is a happy occasion; it is the month that the Muslim holy book, &lt;strong&gt;The Quran&lt;/strong&gt;, was revealed to our Prophet Muhammad(Peace be upon him). Muslims are called by their religion to celebrate the month by coming together in worship, fasting each day for thirty days from dawn until sunset. While this may seem like a tremendous feat, consider this:&lt;br /&gt;
 Fasting while working is an even greater endeavor. Make it a little easier on your Muslim colleague by following a couple of simple rules:&lt;/p&gt;
@@ -70,48 +61,7 @@ Fasting is not an excuse, Although energy levels might be low, the point of fast
 
 &lt;p&gt;That said – we don’t mind if you help work in a nap time for us! :stuck_out_tongue_winking_eye:&lt;/p&gt;
 
-</description>
-        <pubDate>Thu, 02 Jun 2016 08:37:36 +0000</pubDate>
-        <link>foxt7ot.github.io/welcome-ramadhan.html</link>
-        <guid isPermaLink="true">foxt7ot.github.io/welcome-ramadhan.html</guid>
-        
-        <category>spiritual</category>
-        
-        <category>religious</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>This world is so Meta, Even this post is...</title>
-        <description>&lt;p&gt;And on this nice and shiny day of summer I took decision to move ahead of old blog powered by Wordpress to this new one powered by &lt;a href=&quot;https://github.com/gh-pages&quot;&gt;github&lt;/a&gt; pages with an essence of &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. There is very slight chances that I’ll repost my old posts in this blog as there are many reasons:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First and foremost, I am too lazy to do so.&lt;/li&gt;
-  &lt;li&gt;BlackBerry 10 is long gone&lt;/li&gt;
-  &lt;li&gt;Firefox OS has been shut down. So, as a result there is no use to build custom &lt;strong&gt;gaia&lt;/strong&gt;.(If still you are interested ping me on IRC [sudoname: foxt7ot])&lt;/li&gt;
-  &lt;li&gt;Pootle layout is all changed&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 30 May 2016 08:37:36 +0000</pubDate>
-        <link>foxt7ot.github.io/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">foxt7ot.github.io/welcome-to-jekyll.html</guid>
-        
-        <category>firstpost</category>
-        
-        <category>newSunshine</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+</feed>

@@ -2,7 +2,15 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>foxt7ot.github.io/welcome-to-jekyll.html</loc>
-        <lastmod>2016-04-25T11:13:10+00:00</lastmod>
+        <lastmod>2016-06-23T07:39:07+00:00</lastmod>
+    </url>
+    <url>
+        <loc>foxt7ot.github.io/welcome-ramadhan.html</loc>
+        <lastmod>2016-06-23T09:21:39+00:00</lastmod>
+    </url>
+    <url>
+        <loc>foxt7ot.github.io/fasting-benefits.html</loc>
+        <lastmod>2016-06-23T09:33:54+00:00</lastmod>
     </url>
     <url>
         <loc>foxt7ot.github.io/errors/404</loc>
@@ -10,11 +18,11 @@
     </url>
     <url>
         <loc>foxt7ot.github.io/</loc>
-        <lastmod>2016-04-25T11:13:10+00:00</lastmod>
+        <lastmod>2016-06-23T09:33:54+00:00</lastmod>
     </url>
     <url>
         <loc>foxt7ot.github.io/about-me/</loc>
-        <lastmod>2016-04-25T10:58:33+00:00</lastmod>
+        <lastmod>2016-06-23T09:35:52+00:00</lastmod>
     </url>
     <url>
         <loc>foxt7ot.github.io/css/main.css</loc>
