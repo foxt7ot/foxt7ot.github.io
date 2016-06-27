@@ -3,7 +3,7 @@
  <title>Tag: tutorial</title>
  <link href="foxt7ot.github.io/tag/tutorial.xml" rel="self"/>
  <link href="foxt7ot.github.io/tag/tutorial.html"/>
- <updated>2016-06-27T13:04:31+00:00</updated>
+ <updated>2016-06-27T16:55:01+00:00</updated>
  <id>foxt7ot.github.io/tag/tutorial.html</id>
  <author>
    <name>Yaseen</name>
@@ -52,7 +52,7 @@
 &lt;center&gt;&lt;img src=&quot;/images/bullshit.gif&quot; /&gt;&lt;/center&gt;
 &lt;p /&gt;
 
-&lt;p&gt;time for some explanation. The value which we had assigned to page.identifier is the value which will uniquely going to identify your posts and will gonna load comments accordingly. We have placed a “If” condition in “post.html” which will work only if we are going to declare a variable named as “comments” and assign a true value to it.&lt;/p&gt;
+&lt;p&gt;time for some explanation. The value which we had assigned to page.identifier is the value which will uniquely going to identify your posts and will gonna load comments accordingly. We have placed an “If” condition in “post.html” which will work only if we are going to declare a variable named as “comments” and assign a true value to it.&lt;/p&gt;
 
 &lt;p&gt;Also don’t forget to add “disqus_identifier” in your posts and define unique value to it. Perhaps you can use GUID for this purpose, &lt;strong&gt;Just my two cents&lt;/strong&gt; :blush:&lt;/p&gt;
 

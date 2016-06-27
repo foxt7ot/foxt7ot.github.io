@@ -5,9 +5,20 @@
     <description>A blog maybe or may be some weird sh!t who knows? :-D</description>
     <link>foxt7ot.github.io/</link>
     <atom:link href="foxt7ot.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jun 2016 13:04:31 +0000</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2016 13:04:31 +0000</lastBuildDate>
+    <pubDate>Mon, 27 Jun 2016 16:55:01 +0000</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2016 16:55:01 +0000</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Oh God Why Thou Forsaken Me</title>
+        <description>
+</description>
+        <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
+        <link>foxt7ot.github.io/oh-god-why-thou-forsaken-me.html</link>
+        <guid isPermaLink="true">foxt7ot.github.io/oh-god-why-thou-forsaken-me.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Yee-haw.. Now you can comment on posts</title>
@@ -49,7 +60,7 @@
 &lt;center&gt;&lt;img src=&quot;/images/bullshit.gif&quot; /&gt;&lt;/center&gt;
 &lt;p /&gt;
 
-&lt;p&gt;time for some explanation. The value which we had assigned to page.identifier is the value which will uniquely going to identify your posts and will gonna load comments accordingly. We have placed a “If” condition in “post.html” which will work only if we are going to declare a variable named as “comments” and assign a true value to it.&lt;/p&gt;
+&lt;p&gt;time for some explanation. The value which we had assigned to page.identifier is the value which will uniquely going to identify your posts and will gonna load comments accordingly. We have placed an “If” condition in “post.html” which will work only if we are going to declare a variable named as “comments” and assign a true value to it.&lt;/p&gt;
 
 &lt;p&gt;Also don’t forget to add “disqus_identifier” in your posts and define unique value to it. Perhaps you can use GUID for this purpose, &lt;strong&gt;Just my two cents&lt;/strong&gt; :blush:&lt;/p&gt;
 
@@ -84,7 +95,7 @@ You will experience enhanced energy, clear-mindedness and feel better. On the do
 The body is completely adapted to the fasting process. There is more energy and clarity of mind. Cleansing periods can be short with many days of feeling good in between. There are days when the tongue is pink and the breath is fresh. The healing work of the organs is being completed. After the detoxification mechanisms have removed the causative agent or render it harmless, the body works at maximum capacity in tissue proliferation to replace damaged tissue. After day 20, the mind is affected. Heightened clarity and emotional balance are felt at this time. Memory and concentration improve.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;~Happy Fasting&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
-Above excerpts is copied form the researcher, Mr. Tom McGregor, author of Eating in Freedom&lt;/p&gt;
+Above excerpts are copied form the researcher, Mr. Tom McGregor, author of Eating in Freedom&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Jun 2016 08:37:36 +0000</pubDate>
         <link>foxt7ot.github.io/fasting-benefits.html</link>
