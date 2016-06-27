@@ -5,13 +5,17 @@
     <description>A blog maybe or may be some weird sh!t who knows? :-D</description>
     <link>foxt7ot.github.io/</link>
     <atom:link href="foxt7ot.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jun 2016 11:11:24 +0000</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2016 11:11:24 +0000</lastBuildDate>
+    <pubDate>Mon, 27 Jun 2016 13:04:31 +0000</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2016 13:04:31 +0000</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
         <title>Yee-haw.. Now you can comment on posts</title>
-        <description>&lt;p&gt;I have read ample of blogs which shows how to integrate Disqus with Jekyll but found myself unable to succeed as Disqus has updated their embeded code which provides feasibility to integrate Disqus comments in your post.&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;Now we can play comments-comments on my posts&lt;/em&gt;&lt;/strong&gt; :stuck_out_tongue:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have read ample of blogs which shows how to integrate Disqus with Jekyll but found myself unable to succeed as Disqus has updated their embeded code which provides feasibility to integrate Disqus comments in your post.&lt;/p&gt;
 
 &lt;p&gt;So here I am writing a way which is easy af through which you can integrate Disqus in your Jekyll blog post.&lt;/p&gt;
 
