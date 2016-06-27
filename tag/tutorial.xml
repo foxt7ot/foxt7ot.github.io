@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Tag: tutorial</title>
+ <link href="foxt7ot.github.io/tag/tutorial.xml" rel="self"/>
+ <link href="foxt7ot.github.io/tag/tutorial.html"/>
+ <updated>2016-06-27T10:57:11+00:00</updated>
+ <id>foxt7ot.github.io/tag/tutorial.html</id>
+ <author>
+   <name>Yaseen</name>
+ </author>
+ 
+ <entry>
+   <title>Yee-haw.. Now you can comment on posts</title>
+   <link href="foxt7ot.github.io/disqus-added.html"/>
+   <updated>2016-06-26T08:37:36+00:00</updated>
+   <id>foxt7ot.github.io/disqus-added.html</id>
+   <content type="html">&lt;p&gt;I have read ample of blogs which shows how to integrate Disqus with Jekyll but found myself unable to succeed as Disqus has updated their embeded code which provides feasibility to integrate Disqus comments in your post.&lt;/p&gt;
+
+&lt;p&gt;So here I am writing a way which is easy af through which you can integrate Disqus in your Jekyll blog post.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create an account on Disqus, &lt;a href=&quot;http://disqus.com/Register&quot;&gt;Register&lt;/a&gt; your forum name.&lt;/li&gt;
+  &lt;li&gt;It will land you to an installation page.&lt;/li&gt;
+  &lt;li&gt;Choose “Universal Code” from the “Choose your platform option”.&lt;br /&gt;
+  It will provide you embed code which you just have to copy and paste it under “_includes” in new file say “disqus.html”.&lt;/li&gt;
+  &lt;li&gt;This is the tricky part, as specified on official doc you got to place the code on whichever post you’d like to load Disqus. And we want something like a boolean variable which allows us to load comments and this post and on that post “nope, just don’t do that”.&lt;/li&gt;
+  &lt;li&gt;Here comes the &lt;a href=&quot;https://github.com/Shopify/liquid/wiki&quot;&gt;Liquid&lt;/a&gt; for rescue, just assign&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;http://{{ site.url }}{{ page.url }}&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;identifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;{{ page.disqus_identifier }}&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Head over to “_layouts” edit post.html (I am assuming that you want to add comments in the bottom section of the post and if not, please tweak changes accordingly). Add these line in the end&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;comments&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;section&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;comments&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Comments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/section&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;endif&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Okay enough bullshit,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img src=&quot;/images/bullshit.gif&quot; /&gt;&lt;/center&gt;
+&lt;p /&gt;
+
+&lt;p&gt;time for some explanation. The value which we had assigned to page.identifier is the value which will uniquely going to identify your posts and will gonna load comments accordingly. We have placed a “If” condition in “post.html” which will work only if we are going to declare a variable named as “comments” and assign a true value to it.&lt;/p&gt;
+
+&lt;p&gt;Also don’t forget to add “disqus_identifier” in your posts and define unique value to it. Perhaps you can use GUID for this purpose, &lt;strong&gt;Just my two cents&lt;/strong&gt; :blush:&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+</feed>
