@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Tag: Open Source</title>
+ <link href="foxt7ot.github.io/tag/open-source.xml" rel="self"/>
+ <link href="foxt7ot.github.io/tag/open-source.html"/>
+ <updated>2016-07-25T11:31:09+00:00</updated>
+ <id>foxt7ot.github.io/tag/open-source.html</id>
+ <author>
+   <name>Yaseen</name>
+ </author>
+ 
+ <entry>
+   <title>The Zen Of Open Source</title>
+   <link href="foxt7ot.github.io/zen-of-opensource.html"/>
+   <updated>2016-07-25T07:22:36+00:00</updated>
+   <id>foxt7ot.github.io/zen-of-opensource.html</id>
+   <content type="html">&lt;p&gt;The Zen of Python has been my inspiration in programming from the early days. I have even found some of its principles priceless in daily life. After nearly delving more than two years with the Open Source world, this is my humble attempt at jotting down the “Do’s and Don’ts” of the Open Source world in the style of The Zen of Python. Consider this to be a tribute to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0020/&quot;&gt;PEP-0020&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This post consolidates the thoughts of &lt;a href=&quot;http://hintjens.com/blog:43&quot;&gt;Pieter Hintjens&lt;/a&gt;, &lt;a href=&quot;http://brunorocha.org/10-rules-of-open-source-projects.html&quot;&gt;Bruno Rocha&lt;/a&gt; and &lt;a href=&quot;http://fossforce.com/2010/05/the-zen-of-open-source/&quot;&gt;Christine Hall&lt;/a&gt; on Open Source, and adds &lt;strong&gt;some of my experience&lt;/strong&gt; to it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-zen-of-open-source&quot;&gt;The Zen Of Open Source&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open is better than closed.&lt;/li&gt;
+  &lt;li&gt;Explicit license is better than implicit intention.&lt;/li&gt;
+  &lt;li&gt;Public domain is better than copyleft.&lt;/li&gt;
+  &lt;li&gt;Copyleft is better than copyright.&lt;/li&gt;
+  &lt;li&gt;Small team is better than working alone.&lt;/li&gt;
+  &lt;li&gt;Community is better than a small team.&lt;/li&gt;
+  &lt;li&gt;Documentation counts.&lt;/li&gt;
+  &lt;li&gt;Special projects aren’t special enough to file patents.&lt;/li&gt;
+  &lt;li&gt;Although practicality beats ideologies,&lt;/li&gt;
+  &lt;li&gt;Patches should never be ignored silently,&lt;/li&gt;
+  &lt;li&gt;Unless they break the code.&lt;/li&gt;
+  &lt;li&gt;In the face of ambiguity, refuse the temptation to close an issue.&lt;/li&gt;
+  &lt;li&gt;There should be one– and preferably only one –style guide.&lt;/li&gt;
+  &lt;li&gt;Although that way may not be obvious at first unless you’re a bot.&lt;/li&gt;
+  &lt;li&gt;Complete project is better than Incomplete one,&lt;/li&gt;
+  &lt;li&gt;Incomplete project is better than none.&lt;/li&gt;
+  &lt;li&gt;It is good to use already developed library,&lt;/li&gt;
+  &lt;li&gt;Although it is better to to build library from scratch, &lt;strong&gt;&lt;em&gt;reinvent the wheel -let’s do more of those&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wanna add something more, comment below.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+</feed>
